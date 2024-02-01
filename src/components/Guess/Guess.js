@@ -3,8 +3,6 @@ import { range } from '../../utils.js';
 import { checkGuess } from '../../game-helpers.js';
 
 function Guess({ guess, answer }) {
-  const splitGuess = guess.guess.split('');
-
   return (
     <div className='guess-results'>
       <p className='guess'>
